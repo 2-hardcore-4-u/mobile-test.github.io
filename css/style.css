@@ -1,0 +1,77 @@
+.nav-personal-style {
+    background-color: #36b57a;
+}
+.col {
+	padding: 0;
+	margin: 0;
+}
+.row {
+	padding: 0;
+	margin: 0;
+}
+.module-base {
+	min-height: 100vh;
+	padding: 6vh 0; 
+}
+.darker {
+	background-color: #dedede;
+}
+.divider {
+	height: 5vh;
+	background-color: #95e8c0;
+	display: none; /* might change later*/
+}
+.filler{
+	height: 8vh;
+	background-color: #36b57a;
+}
+.carousel-inner {
+	height: 92vh;
+	width: 100vw;
+}
+.header {
+	position: relative;
+	padding-top: 0vh;
+}
+.whole {
+	padding: 0;
+	margin: 0;
+}
+.parallax {
+	position: relative;
+}
+.image-holder img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.services{
+	min-height: 190vh;
+}
+.footer {
+	height: 33vh;
+	background-color: #2f9c69;
+	width: 100% !important;
+}
+.logo{
+	width: 4vh;
+	height: 4vh;
+}
+.page-up-style{
+	position: fixed;
+	bottom: 5vh;
+	right: 5vh;
+	height: 5vh;
+	width: 5vh;
+}
+.call-btn-style{
+	position: fixed;
+	bottom: 12.5vh;
+	right: 5vh;
+	height: 5vh;
+	width: 5vh;
+}
+.mobile-header {
+	height: 100vh;
+	background: center / cover no-repeat url("../images/mobile-header.png");
+}
