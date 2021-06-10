@@ -48,7 +48,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">Галерея</a>
+          <a class="nav-link text-light" href="#gallery">Галерея</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-light" href="#">Ціни</a>
@@ -114,11 +114,13 @@
 
   <h2 class="text-center">Welcome</h2>
   <p class="text-center">Сайт СТО</p>
-  <center><a class="btn btn-primary" href="#about">Primary</a></center>
+  <center><a class="btn btn-success" style="background-color: #36b57a; border: none;" href="#about">Primary</a></center>
 
 </div>
 
-<div class="container module-base" id="about">
+<div class="module-base">
+
+<div class="container module-base d-flex align-items-end flex-column" id="about">
 
   <div class="row">
 
@@ -153,11 +155,23 @@
 
   </div>
 
+  <div class="row mt-auto mb-3">
+    
+    <div class="col d-md-flex d-lg-none justify-content-end">
+      
+      <a class="btn btn-outline-success" role="call" enabled href="#services">🠗</a>
+
+    </div>
+
+  </div>
+
+</div>
+
 </div>
 
 <div class="darker">
 
-  <div class="container services module-base" id="services">
+  <div class="container services module-base darker" id="services">
   
     <div class="row">
 
@@ -168,6 +182,8 @@
       </div>
 
     </div>
+
+    <br>
 
     <div class="row">
       
@@ -182,7 +198,7 @@
         <h3 class="text">Ми lorem ipsum</h3>
         <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere risus turpis, quis posuere sem tincidunt nec. Etiam mattis nulla sit amet diam vestibulum sollicitudin. Sed non consectetur ligula. Donec viverra quam lectus, vel volutpat ipsum tempor in. Curabitur non dictum tortor. Duis blandit fermentum urna, ac auctor metus. Curabitur mollis congue odio, non pulvinar ipsum blandit a. Praesent non hendrerit quam. Aenean dui nunc, varius a condimentum eget, suscipit eu velit. In fermentum libero nec nisi molestie, eget molestie lorem condimentum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
       
-      </div>
+      </div><br>
 
       <div class="col-lg-6 col-md-12 image-holder">
 
@@ -198,7 +214,84 @@
 
     </div>
 
+      <br>
+
+      <div class="row">
+
+        <div class="col">
+
+          <h3 class="text-center">sum</h3><br>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere risus turpis, quis posuere sem tincidunt nec. Etiam mattis nulla sit amet diam vestibulum sollicitudin. Sed non consectetur ligula. Donec viverra quam lectus, vel volutpat ipsum tempor in. Curabitur non dictum tortor. Duis blandit fermentum urna, ac auctor metus. Curabitur mollis congue odio, non pulvinar ipsum blandit a. Praesent non hendrerit quam. Aenean dui nunc, varius a condimentum eget, suscipit eu velit. In fermentum libero nec nisi molestie, eget molestie lorem condimentum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+        </div>
+
+      </div><br>
+
+      <div class="row container container-md">
+        
+          <div class="col d-flex justify-content-center">
+           
+            <button type="button" class="btn btn-lg btn-success learn-more" style="background-color: #36b57a; border: none;" enabled>&#8198        Learn more        &#8198</button>
+
+          </div>
+
+      </div>
+      
   </div>
+
+</div>
+
+<div class="gallery module-base" id="gallery">
+
+<div class="row">
+  
+  <div class="col">
+    
+    <h3 class="text-center">Галерея</h3>
+
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-10 offset-lg-1">
+        
+        <div class="d-flex flex-wrap g-image-holder">
+
+          <img class="img-fluid" src="https://via.placeholder.com/728x520.png?text=Placeholder">
+
+          <img class="img-fluid" src="https://via.placeholder.com/600x300.png?text=Placeholder">
+
+          <img class="img-fluid" src="https://via.placeholder.com/400x500.png?text=Placeholder">
+
+          <img class="img-fluid" src="https://via.placeholder.com/728x520.png?text=Placeholder">
+
+          <img class="img-fluid" src="https://via.placeholder.com/250x250.png?text=Placeholder">
+
+          <img class="img-fluid" src="https://via.placeholder.com/400x500.png?text=Placeholder">
+
+          <img class="img-fluid" src="https://via.placeholder.com/728x520.png?text=Placeholder">
+
+          <img class="img-fluid" src="https://via.placeholder.com/600x300.png?text=Placeholder">
+
+          <img class="img-fluid" src="https://via.placeholder.com/400x500.png?text=Placeholder">
+
+          <img class="img-fluid" src="https://via.placeholder.com/728x520.png?text=Placeholder">
+
+          <img class="img-fluid" src="https://via.placeholder.com/700x600.png?text=Placeholder">
+
+          <img class="img-fluid" src="https://via.placeholder.com/400x500.png?text=Placeholder">
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
 
 </div>
 
@@ -335,5 +428,9 @@
 <a class="btn btn-outline-success page-up-style" href="#" role="page-up">^</a>
 
 <a class="btn btn-outline-success call-btn-style" href="#" role="call">&#9990</a> //-->
+
+<a class="btn btn-outline-success page-up-style d-none d-lg-flex" href="#" role="page-up">^</a>
+
+<a class="btn btn-outline-success call-btn-style d-none d-lg-flex" role="call" disabled>&#9990</a>
 
 </body>
